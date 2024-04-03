@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import SmartFitLogo from '@/app/images/SmartFitAICard.webp';
+// import SmartFitLogo from '@/app/images/SmartFitAICard.webp';
 
 
 

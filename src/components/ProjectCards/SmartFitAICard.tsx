@@ -1,13 +1,12 @@
 import * as React from 'react';
-import image from 'next/image';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import SmartFitLogo from '@/app/images/SmartFitAICard.png';
-import './Card.css';
+// import SmartFitLogo from '@/app/images/SmartFitAICard.png';
+import './card.module.css';
 
 
 
@@ -18,7 +17,7 @@ export default function SmartFitAICard() {
         component="img"
         alt="Smart Fit AI"
         height="140"
-        src = {SmartFitLogo}
+        // src = {SmartFitLogo}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

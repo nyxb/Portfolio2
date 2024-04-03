@@ -28,10 +28,10 @@ export default function Navigation() {
 
          <div className='navcontentbox'>
             <ul>
-               <li><Link href= "Home" ><HomeOutlinedIcon />Startseite</Link></li>
-               <li><Link href = "About" ><HomeOutlinedIcon />Über mich</Link></li>
-               <li><Link href= "Education" ><SchoolOutlinedIcon />Ausbildung</Link></li>
-               <li><Link href="Projects"><AccountTreeOutlinedIcon />Projekte</Link></li>
+               <li><Link href= "/" ><HomeOutlinedIcon />Startseite</Link></li>
+               <li><Link href = "/about" ><HomeOutlinedIcon />Über mich</Link></li>
+               <li><Link href= "/education" ><SchoolOutlinedIcon />Ausbildung</Link></li>
+               <li><Link href="/projects"><AccountTreeOutlinedIcon />Projekte</Link></li>
                <li><a href=""><WorkspacePremiumOutlinedIcon />Zertifikate</a></li>
             </ul>
          <div className='navfooter'>
