@@ -1,0 +1,25 @@
+@import "/variabels.css";
+
+.MuiTypography-body2{
+   color: var(--navtextcolor);
+}
+/*Image Area*/
+.MuiCardMedia-root{
+   background-color: var(--navigationbackgroundcolor);
+   color: var(--navtextcolor);
+}
+/*Bottom Text*/
+.MuiCardContent-root{
+   background-color: var(--navigationbackgroundcolor);
+   color: var(--navtextcolor);
+}
+
+.MuiCardActionArea-root{
+   background-color: var(--navigationbackgroundcolor);
+   color: var(--navtextcolor);
+}
+
+.MuiCardActions-spacing{
+   background-color: var(--navigationbackgroundcolor);
+   color: var(--navtextcolor);
+}

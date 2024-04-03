@@ -1,0 +1,25 @@
+.Avatar{
+   display: flex;
+   height: 250px;
+   width: 250px;
+   float: left;
+   padding-right: 20px;
+   }
+
+.textbox{
+   display: flex;
+   position: relative;
+   float: left;
+   text-align: left;
+   }
+
+.maincardbox{
+   display: flex;
+   margin-top: 20px;
+   }
+
+   .card{
+      display: flex;
+      position: relative;
+      padding: 10px;
+   }

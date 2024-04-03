@@ -1,0 +1,17 @@
+:root{
+   
+   /* Color Definition */
+   /* Text Colors */
+      --textcolor: #b6b4b4;
+      --navtextcolor: #b6b4b4;
+      --navlinkcolor: #b6b4b4;
+      --navlinkhovercolor: #ffffff;
+   
+   /* Design Color */
+      --navigationbackgroundcolor: #2f3548;
+      --mainbackgroundcolor: #fbfbec;
+      --maincolorheaderline: #b6b4b4;
+   
+   /*Font*/
+      --mainfont: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+   }

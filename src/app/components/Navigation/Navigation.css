@@ -1,0 +1,80 @@
+@import "/variabels.css";
+/*Navigationbar Box*/
+
+.navbar {
+
+   display: flex;
+   flex-direction: column;
+   background-color: var(--navigationbackgroundcolor);
+   height: 100vh;
+   min-width: 200px;
+   max-width: 200px;
+   position: relative;
+   top: 0;
+   left: 0;
+   box-shadow: 0.3rem 0 0 rgb(9, 6, 6, 0.3);
+	border-radius: 0 1rem 1rem 0;
+}
+.navheaderbox{
+   text-align: center;
+   color: var(--navtextcolor);
+   font-family: var(--mainfont);
+   font-size: 14px;
+   font-style: italic;
+   margin-top: 20px;
+}
+.navcontentbox
+   ul{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column; 
+      list-style: none;
+      padding: 0 0 0 5px;
+      margin-top: 40px;
+   }
+
+      li{
+         display: flex;
+         justify-content: flex-start;
+         flex-direction: row;
+         width: 100%;
+         padding: 0.3rem 0;
+      }
+
+.navfooter{
+   display: flex;
+   position: fixed;
+   bottom: 5px;
+   
+   a{
+      font-size: 12px;
+   }
+   a:hover{
+      font-size: 14px;
+   }
+   li{
+      padding: 0.1rem 0;
+   }
+}
+/*Navigation Text*/
+/*Navigation Links*/
+
+a {
+   font-size: 20px;
+   text-decoration: none;
+   color: var(--navlinkcolor);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-family: var(--mainfont)      
+}
+a:hover{
+   color: var(--navlinkhovercolor);
+   font-size: 22px;
+}
+
+
+      svg{
+         padding: 0 1rem 0 0;
+      }
